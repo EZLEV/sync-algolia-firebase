@@ -1,0 +1,23 @@
+{
+  "name": "syncalgoliafirebase",
+  "version": "1.0.0",
+  "description": "sincronizado de dados firebase para algolia",
+  "main": "index.js",
+  "scripts": {
+    "sync": "node sync"
+  },
+  "repository": {
+    "type": "git",
+    "url": "syncfirebasealgolia"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "iNeed",
+  "license": "ISC",
+  "dependencies": {
+    "algoliasearch": "^3.24.6",
+    "dotenv": "^4.0.0",
+    "firebase": "^4.6.2"
+  }
+}
